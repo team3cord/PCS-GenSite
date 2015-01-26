@@ -1,8 +1,18 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 25px "Share", cursive;
 }
-
+.pagebackground {
+  background:url('../images/data.jpg')no-repeat center center fixed;
+  background-size: cover;
+}
+.contentfade {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2%;
+}
+.contentfade h1 {
+  font-family: 'Oxygen',san-serif;
+  text-align: center;
+}
 a {
   color: #00B7FF;
 }
