@@ -1,0 +1,27 @@
+{
+  "name": "GenSite",
+  "version": "1.0.0",
+  "description": "Project example for site creating using SiteGen module",
+  "main": "index.js",
+  "scripts": {
+    "test": "`npm bin` /jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/team3cord/PCS-GenSite"
+  },
+  "keywords": [
+    "Node.js",
+    "Jasmine.js"
+  ],
+  "author": "Matt C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team3cord/PCS-GenSite/issues"
+  },
+  "homepage": "https://github.com/team3cord/PCS-GenSite",
+  "dependencies": {
+    "express": "^4.11.1",
+    "jasmine": "^2.1.1"
+  }
+}
