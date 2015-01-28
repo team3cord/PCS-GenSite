@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 // path for postbatch  
 var postPath = './public/posts';
 postbatch.postBatch(postPath);
-console.log(fileCollector);
+// console.log(fileCollector);
 
 postbatch.consoleMe('bill');
 
