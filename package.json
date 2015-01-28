@@ -9,7 +9,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "sitegen": "team3cord/PCS-SiteGen.git",
+    "sitegen": "git://github.com/team3cord/PCS-SiteGen.git",
     "body-parser": "~1.10.2",
     "cookie-parser": "~1.3.3",
     "debug": "~2.1.1",
