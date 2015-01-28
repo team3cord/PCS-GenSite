@@ -1,5 +1,5 @@
 var express = require('express');
-var postbatch = require('sitegen');
+var postbatch = require('SiteGen');
 var router = express.Router();
 
 /* GET home page. */
