@@ -4,12 +4,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'N0d3 M4dN3SS!', proccessedPosts: fileCollector});
+  res.render('index', { title: 'N0d3 M4dN3SS!', proccessedPosts: postbatch.fileCollector});
 });
 // path for postbatch  
 var postPath = './public/posts';
-postbatch.postBatch(postPath);
-// console.log(fileCollector);
+var fileCollector = [];
+postbatch.postBatch(postPath,fileCollector);
+console.log(postbatch.fileCollector);
 
 postbatch.consoleMe('bill');
 
