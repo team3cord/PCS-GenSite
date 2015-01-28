@@ -2,5 +2,9 @@ extends layout
 
 block content
   div.contentfade
-    h1= title
-    p Welcome to #{title}
+    h1 List of Posts 
+    p Welcome to #{title} these are the posts:  
+    ul 
+      each val in proccessedPosts
+        div!=val  
+
